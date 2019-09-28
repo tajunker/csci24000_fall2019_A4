@@ -86,12 +86,11 @@ void Race::start() {
 		
 		h[i].advance(); 
 		
-		if (h[i].getPosition() == length) { 
+		if (h[i].getPosition() >= length) { 
 			
 			h[i].win(); 
 			bEnd = true;
 			cout<<"Horse "<<i<<" wins!"<<endl; 
-			
 			
 		} 
 
