@@ -92,6 +92,7 @@ void Race::start() {
 			bEnd = true;
 			cout<<"Horse "<<i<<" wins!"<<endl; 
 			
+			
 		} 
 
 
