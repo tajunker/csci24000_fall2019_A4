@@ -3,7 +3,7 @@
 #include <iostream>
 #include <stdio.h>
 
-#define TRACK_LENGTH 25
+#define TRACK_LENGTH 30
 #define HORSES_LENGTH 5
 
 using namespace std;
@@ -86,10 +86,10 @@ void Race::start() {
 		
 		h[i].advance(); 
 		
-		if (h[i].getPosition() == length) { 
+		if (h[i].getPosition() == length) { 	
 			
-			bEnd = true;
 			h[i].win(); 
+			bEnd = true;
 			cout<<"Horse "<<i<<" wins!"<<endl; 
 			
 		} 
