@@ -86,7 +86,7 @@ void Race::start() {
 		
 		h[i].advance(); 
 		
-		if (h[i].getPosition() == length-1) { 	
+		if (h[i].getPosition() == length) { 	
 			
 			h[i].win(); 
 			bEnd = true;
