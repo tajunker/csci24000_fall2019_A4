@@ -3,7 +3,7 @@
 #include <iostream>
 #include <stdio.h>
 
-#define TRACK_LENGTH 30
+#define TRACK_LENGTH 45
 #define HORSES_LENGTH 5
 
 using namespace std;
