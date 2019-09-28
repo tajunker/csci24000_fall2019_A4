@@ -42,3 +42,4 @@ void Horse::win() {
 
 	bWon = true; 
 } 
+
