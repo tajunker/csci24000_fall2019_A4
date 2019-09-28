@@ -8,7 +8,7 @@
 #include "Race.h"
 #include "Horse.h"
 
-#define TRACK_LENGTH 30
+#define TRACK_LENGTH 45
 #define HORSES_LENGTH 5
 
 using namespace std; 
